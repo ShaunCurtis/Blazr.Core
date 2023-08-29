@@ -4,6 +4,27 @@
     <TargetFramework>net7.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Title>Blazor Core Packsge for the Blazr Framework</Title>
+    <Authors>Shaun Curtis</Authors>
+    <Company>Cold Elm Coders</Company>
+    <Description>The Core [Clean Design] package for the Blazr Framework </Description>
+    <Copyright>Use and Donate</Copyright>
+    <PackageReadmeFile>Package.md</PackageReadmeFile>
+    <PackageReleaseNotes>First Release</PackageReleaseNotes>
+    <RepositoryUrl>https://github.com/ShaunCurtis/Blazr.Core</RepositoryUrl>
+    <PackageLicenseFile>license.txt</PackageLicenseFile>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Update="license.txt">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Update="Package.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
 
 </Project>
